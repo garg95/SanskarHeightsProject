@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Big Projects\\SanskarHeights\\SanskarHeights\\DataLayer\\DataLayer.csproj": {}
+  },
+  "projects": {
+    "F:\\Big Projects\\SanskarHeights\\SanskarHeights\\DataLayer\\DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Big Projects\\SanskarHeights\\SanskarHeights\\DataLayer\\DataLayer.csproj",
+        "projectName": "DataLayer",
+        "projectPath": "F:\\Big Projects\\SanskarHeights\\SanskarHeights\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Shin\\.nuget\\packages\\",
+        "outputPath": "F:\\Big Projects\\SanskarHeights\\SanskarHeights\\DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

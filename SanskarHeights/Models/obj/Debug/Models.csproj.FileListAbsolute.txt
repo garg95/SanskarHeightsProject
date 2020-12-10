@@ -1,0 +1,12 @@
+F:\Big Projects\SanskarHeights\SanskarHeights\Models\bin\Debug\Models.dll.config
+F:\Big Projects\SanskarHeights\SanskarHeights\Models\bin\Debug\Models.dll
+F:\Big Projects\SanskarHeights\SanskarHeights\Models\bin\Debug\Models.pdb
+F:\Big Projects\SanskarHeights\SanskarHeights\Models\bin\Debug\EntityFramework.dll
+F:\Big Projects\SanskarHeights\SanskarHeights\Models\bin\Debug\EntityFramework.SqlServer.dll
+F:\Big Projects\SanskarHeights\SanskarHeights\Models\bin\Debug\EntityFramework.xml
+F:\Big Projects\SanskarHeights\SanskarHeights\Models\bin\Debug\EntityFramework.SqlServer.xml
+F:\Big Projects\SanskarHeights\SanskarHeights\Models\obj\Debug\Models.csprojAssemblyReference.cache
+F:\Big Projects\SanskarHeights\SanskarHeights\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+F:\Big Projects\SanskarHeights\SanskarHeights\Models\obj\Debug\Models.csproj.CopyComplete
+F:\Big Projects\SanskarHeights\SanskarHeights\Models\obj\Debug\Models.dll
+F:\Big Projects\SanskarHeights\SanskarHeights\Models\obj\Debug\Models.pdb

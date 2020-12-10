@@ -1,0 +1,39 @@
+﻿@model Models.Employee
+
+
+<div class="row" style="margin-top:30px">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6" style="text-align:center"><h1 style="font-size:50px"><b>Welcome to the family of Fitness</b></h1></div>
+    <div class="col-sm-3"></div>
+</div>
+
+<div class="row" style="margin-top:30px">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+        <div style="text-align:center;">
+            @using (Html.BeginForm("SignIn", "Home", FormMethod.Post))
+            {
+                <table style="margin-left:auto;margin-right:auto;font-size:25px;">
+                    <tr>
+                        <td>
+                            @Html.DisplayName("Name")
+                        </td>
+                        <td>@Html.TextBox("name")</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayName("Password")
+                        </td>
+                        <td>@Html.TextBox("password")</td>
+                    </tr>
+                </table>
+                <input type="submit" value="Sign In" style="font-size:25px;margin-right:auto;margin-top:20px" />
+                @Html.ActionLink("Click here to register", "Register", "Home", new { @style = "margin-left:100px;font-size:18px" })
+                <br />
+                <h4 style="float:right"><b>@Html.ValidationMessageFor(model => Model.Password, "", new { @style = "color:red" })</b></h4>
+                <h4 style="color:green;">@ViewBag.Msg</h4>
+            }
+        </div>
+    </div>
+    <div class="col-sm-3"></div>
+</div>
