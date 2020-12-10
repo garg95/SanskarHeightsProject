@@ -28,7 +28,7 @@ namespace SanskarHeights.Controllers
         public ActionResult SignIn(string name, string password)
         {
             bool isAuthenticated = employeeLogic.CheckEmployee(name, password);
-            if (isAuthenticated)
+            if (isAuthenticated )
             {
                 FormsAuthentication.SetAuthCookie(name, false);
 
