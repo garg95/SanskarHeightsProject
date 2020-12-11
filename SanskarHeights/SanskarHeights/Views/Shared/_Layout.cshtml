@@ -6,6 +6,8 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/custom")
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -30,11 +32,13 @@
                     @if (Request.IsAuthenticated)
                     {
                         <li>@Html.ActionLink("Signout", "SignOut", "Home")</li>
+
                     }
                     else
                     {
                         <li>@Html.ActionLink("Sign In", "SignIn", "Home")</li>
                     }
+                    <li>@Html.ActionLink("ShowDetails", "ShowDetails", "Home")</li>
                 </ul>
             </div>
             
@@ -48,7 +52,7 @@
         </footer>
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
+    
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>

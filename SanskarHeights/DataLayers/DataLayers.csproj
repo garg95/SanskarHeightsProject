@@ -53,9 +53,12 @@
   <ItemGroup>
     <Compile Include="EmployeeContext.cs" />
     <Compile Include="EmployeeDetails.cs" />
-    <Compile Include="DataModels\Employee.cs" />
     <Compile Include="IEmployeeDetails.cs" />
+    <Compile Include="IStandardData.cs" />
+    <Compile Include="IStudentData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StandardData.cs" />
+    <Compile Include="StudentData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

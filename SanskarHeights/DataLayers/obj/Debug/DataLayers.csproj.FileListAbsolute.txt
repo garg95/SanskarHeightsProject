@@ -1,3 +1,5 @@
+F:\Big Projects\SanskarHeights\SanskarHeights\DataLayers\obj\Debug\DataLayers.csprojAssemblyReference.cache
+F:\Big Projects\SanskarHeights\SanskarHeights\DataLayers\obj\Debug\DataLayers.csproj.CoreCompileInputs.cache
 F:\Big Projects\SanskarHeights\SanskarHeights\DataLayers\bin\Debug\DataLayers.dll.config
 F:\Big Projects\SanskarHeights\SanskarHeights\DataLayers\bin\Debug\DataLayers.dll
 F:\Big Projects\SanskarHeights\SanskarHeights\DataLayers\bin\Debug\DataLayers.pdb
@@ -8,8 +10,6 @@ F:\Big Projects\SanskarHeights\SanskarHeights\DataLayers\bin\Debug\Models.pdb
 F:\Big Projects\SanskarHeights\SanskarHeights\DataLayers\bin\Debug\Models.dll.config
 F:\Big Projects\SanskarHeights\SanskarHeights\DataLayers\bin\Debug\EntityFramework.xml
 F:\Big Projects\SanskarHeights\SanskarHeights\DataLayers\bin\Debug\EntityFramework.SqlServer.xml
-F:\Big Projects\SanskarHeights\SanskarHeights\DataLayers\obj\Debug\DataLayers.csprojAssemblyReference.cache
-F:\Big Projects\SanskarHeights\SanskarHeights\DataLayers\obj\Debug\DataLayers.csproj.CoreCompileInputs.cache
 F:\Big Projects\SanskarHeights\SanskarHeights\DataLayers\obj\Debug\DataLayers.csproj.CopyComplete
 F:\Big Projects\SanskarHeights\SanskarHeights\DataLayers\obj\Debug\DataLayers.dll
 F:\Big Projects\SanskarHeights\SanskarHeights\DataLayers\obj\Debug\DataLayers.pdb

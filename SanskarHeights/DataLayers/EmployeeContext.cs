@@ -1,10 +1,13 @@
-﻿using System.Data.Entity;
+﻿using Models;
+using System.Data.Entity;
 
 
 namespace DataLayers
 {
     public class EmployeeContext:DbContext
     {
-        public DbSet<Models.Employee> employees { get; set; }
+        public DbSet<Employee> employees { get; set; }
+        public DbSet<Student> students { get; set; }
+        public DbSet<Standard> standards { get; set; }
     }
 }

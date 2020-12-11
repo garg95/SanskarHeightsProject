@@ -1,0 +1,26 @@
+﻿@model SanskarHeights.Models.StandardModel
+
+@{
+    ViewBag.Title = "ShowDetails";
+}
+@*location.href='@Url.Action()'*@
+<h2>UpdateDetails</h2>
+<div>
+    <input type="button" class="btn btn-primary" id="stubtn" value="Get Student Details Class wise" />
+    <input type="button" class="btn btn-success" value="Get Teacher Details" />
+</div>
+
+@using (Html.BeginForm("GetStudents", "Home", FormMethod.Get))
+{
+    <div id="classnumber">
+        Please select class : @Html.DropDownListFor(x => Model.Standard, Model.standards)
+        <input type="submit" class="btn btn-info" id="stubtnget" value="Get Students" />
+
+    </div>
+    <ul id="studentslist"></ul>
+}
+
+<div id="ShowStudents">@{Html.RenderAction("GetStudents");}</div>
+@*<div id="ShowStudents">@Html.Action("GetStudents")</div>*@
+<div id="ShowEmployees"></div>
+

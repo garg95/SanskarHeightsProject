@@ -56,8 +56,12 @@
   <ItemGroup>
     <Compile Include="EmployeeLogic.cs" />
     <Compile Include="IEmployeeLogic.cs" />
+    <Compile Include="IStudentLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceModels\Employee.cs" />
+    <Compile Include="IStandardLogic.cs" />
+    <Compile Include="StandardLogic.cs" />
+    <Compile Include="StudentLogic.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataLayers\DataLayers.csproj">

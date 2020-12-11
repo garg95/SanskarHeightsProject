@@ -1,5 +1,7 @@
 ﻿using BusinessLayer;
 using DataLayers;
+using Models;
+using SanskarHeights.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +14,8 @@ namespace SanskarHeights.Controllers
     public class HomeController : Controller
     {
         EmployeeLogic employeeLogic = new EmployeeLogic(new EmployeeDetails());
+        StudentLogic studentLogic = new StudentLogic(new StudentData());
+        StandardLogic standardLogic = new StandardLogic(new StandardData()); 
         //[Authorize]
         public ActionResult Index()
         {
@@ -57,5 +61,29 @@ namespace SanskarHeights.Controllers
 
             return View();
         }
+
+        //[Authorize]
+        public ActionResult ShowDetails()
+        {
+            StandardModel standardModel=new StandardModel();
+            standardModel.standards = new List<SelectListItem>();
+            List<Standard> standards = standardLogic.GetStandards().ToList();
+            standards.ForEach(x =>
+            {
+                standardModel.standards.Add(new SelectListItem() { Text = x.ClassName, Value = x.ClassId.ToString() });
+            });
+
+            return View(standardModel);
+        }
+        //[Authorize]
+        //[ChildActionOnly]
+        public PartialViewResult GetStudents(StandardModel _standardModel)
+        {
+            int standardid = Convert.ToInt32(_standardModel.Standard);
+            List<Student> studentsList = studentLogic.GetStudentClassWise(standardid).ToList();
+
+            return PartialView(studentsList);
+        }
+        
     }
 }

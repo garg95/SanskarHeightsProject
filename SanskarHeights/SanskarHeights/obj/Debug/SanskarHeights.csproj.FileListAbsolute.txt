@@ -53,6 +53,8 @@ F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\Antlr3.Runtime.
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\AutoMapper.dll
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\BusinessLayer.dll
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\DataLayers.dll
+F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\EntityFramework.dll
+F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\EntityFramework.SqlServer.dll
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\Microsoft.Web.Infrastructure.dll
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\Models.dll
@@ -65,13 +67,15 @@ F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\System.Web.WebP
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\System.Web.WebPages.dll
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\System.Web.WebPages.Razor.dll
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\WebGrease.dll
-F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\EntityFramework.dll
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\BusinessLayer.pdb
+F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\BusinessLayer.dll.config
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\DataLayers.pdb
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\DataLayers.dll.config
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\Models.pdb
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\Models.dll.config
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\AutoMapper.xml
+F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\EntityFramework.xml
+F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\EntityFramework.SqlServer.xml
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\System.Web.Helpers.xml
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\System.Web.Mvc.xml
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\System.Web.Optimization.xml
@@ -82,10 +86,6 @@ F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\System.Web.WebP
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\Newtonsoft.Json.xml
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\Antlr3.Runtime.pdb
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\EntityFramework.xml
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\obj\Debug\SanskarHeights.csproj.CopyComplete
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\obj\Debug\SanskarHeights.dll
 F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\obj\Debug\SanskarHeights.pdb
-F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\EntityFramework.SqlServer.dll
-F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\BusinessLayer.dll.config
-F:\Big Projects\SanskarHeights\SanskarHeights\SanskarHeights\bin\EntityFramework.SqlServer.xml

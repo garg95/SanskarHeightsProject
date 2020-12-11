@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Models.Student>
+
+<table>
+    <tr>
+        <th>Student Name</th>
+        <th>Class</th>
+        <th>Father's Name</th>
+        <th>Mother's Name</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(x => item.StudentName)</td>
+            <td>@Html.DisplayFor(x => item.Standard)</td>
+            <td>@Html.DisplayFor(x => item.Father)</td>
+            <td>@Html.DisplayFor(x => item.Mother)</td>
+        </tr>
+    }
+</table>
+
